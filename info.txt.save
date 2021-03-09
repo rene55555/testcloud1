@@ -1,0 +1,277 @@
+insgesamt 76 PID TTY STAT TIME COMMAND 1 ?  Ss 0:03 /sbin/init splash 2 ?  S 0:00 [kthreadd] 3 ?  I< 0:00 [rcu_gp] 4 ?  I< 
+      0:00 [rcu_par_gp] 6 ?  I< 0:00 [kworker/0:0H-kblockd] 9 ?  I< 0:00 [mm_percpu_wq]
+drwxrwxr-x 6 rmc rmc 4096 Mär 3 13:44 .  10 ?  S 0:01 [ksoftirqd/0] 11 ?  I 0:30 [rcu_sched] 12 ?  S 0:00 [migration/0] 13 ?  
+     S 0:00 [idle_inject/0] 14 ?  S 0:00 [cpuhp/0] 15 ?  S 0:00 [cpuhp/1] 16 ?  S 0:00 [idle_inject/1] 17 ?  S 0:00 
+     [migration/1] 18 ?  S 0:04 [ksoftirqd/1] 20 ?  I< 0:00 [kworker/1:0H-kblockd] 21 ?  S 0:00 [cpuhp/2] 22 ?  S 0:00 
+     [idle_inject/2] 23 ?  S 0:00 [migration/2] 24 ?  S 0:00 [ksoftirqd/2] 26 ?  I< 0:00 [kworker/2:0H-kblockd] 27 ?  S 0:00 
+     [cpuhp/3] 28 ?  S 0:00 [idle_inject/3] 29 ?  S 0:00 [migration/3] 30 ?  S 0:01 [ksoftirqd/3] 32 ?  I< 0:00 
+     [kworker/3:0H-kblockd] 33 ?  S 0:00 [kdevtmpfs] 34 ?  I< 0:00 [netns] 35 ?  S 0:00 [rcu_tasks_kthre] 36 ?  S 0:00 
+     [rcu_tasks_rude_] 37 ?  S 0:00 [rcu_tasks_trace] 38 ?  S 0:00 [kauditd] 41 ?  S 0:00 [khungtaskd] 42 ?  S 0:00 
+     [oom_reaper] 43 ?  I< 0:00 [writeback] 44 ?  S 0:00 [kcompactd0] 45 ?  SN 0:00 [ksmd] 46 ?  SN 0:00 [khugepaged] 93 ?  I< 
+     0:00 [kintegrityd] 94 ?  I< 0:00 [kblockd] 95 ?  I< 0:00 [blkcg_punt_bio] 97 ?  I< 0:00 [tpm_dev_wq] 98 ?  I< 0:00 
+     [ata_sff] 99 ?  I< 0:00 [md]
+drwxrwxrwx 94 rmc rmc 12288 Mär 3 12:08 ..  100 ?  I< 0:00 [edac-poller] 101 ?  I< 0:00 [devfreq_wq] 102 ?  S 0:00 [watchdogd] 
+    104 ?  I< 0:00 [pm_wq] 106 ?  S 0:03 [kswapd0] 107 ?  S 0:00 [ecryptfs-kthrea] 109 ?  I< 0:00 [kthrotld] 110 ?  I< 0:00 
+    [acpi_thermal_pm] 111 ?  I< 0:00 [vfio-irqfd-clea] 114 ?  I< 0:00 [ipv6_addrconf] 124 ?  I< 0:00 [kstrp] 127 ?  I< 0:00 
+    [zswap-shrink] 135 ?  I< 0:00 [charger_manager] 186 ?  I< 0:00 [nvme-wq] 187 ?  I< 0:00 [nvme-reset-wq] 188 ?  I< 0:00 
+    [nvme-delete-wq] 193 ?  S 0:00 [irq/109-ELAN130] 225 ?  I< 0:04 [kworker/3:1H-events_highpri] 227 ?  S 0:00 
+    [jbd2/nvme0n1p5-] 228 ?  I< 0:00 [ext4-rsv-conver] 261 ?  I< 0:04 [kworker/0:1H-events_highpri] 268 ?  S<s 0:05 
+    /lib/systemd/systemd-journald 283 ?  I< 0:04 [kworker/2:1H-events_highpri] 294 ?  I< 0:04 [kworker/1:1H-events_highpri] 
+    299 ?  Ss 0:00 /lib/systemd/systemd-udevd 304 ?  S< 0:00 [loop0] 316 ?  S< 0:00 [loop1] 317 ?  S< 0:00 [loop2] 329 ?  S< 
+    0:00 [loop3] 337 ?  S< 0:00 [loop4] 353 ?  S< 0:00 [loop5] 355 ?  S< 0:00 [loop7] 356 ?  S< 0:00 [loop8] 358 ?  S< 0:00 
+    [loop9] 372 ?  S< 0:00 [loop10] 373 ?  I< 0:00 [asus_wireless_w] 378 ?  S< 0:00 [loop11] 379 ?  S< 0:00 [loop12] 397 ?  S 
+    0:00 [irq/137-mei_me] 402 ?  I< 0:00 [cfg80211] 417 ?  S 0:01 [irq/138-iwlwifi] 428 ?  I< 0:00 [cryptd] 429 ?  I< 0:00 
+    [led_workqueue] 539 ?  S 0:01 [jbd2/nvme0n1p6-] 542 ?  I< 0:00 [ext4-rsv-conver] 567 ?  Ss 0:03 
+    /lib/systemd/systemd-resolved 569 ?  Ssl 0:00 /lib/systemd/systemd-timesyncd 665 ?  Ssl 0:00 
+    /usr/lib/accountsservice/accounts-daemon 666 ?  Ss 0:01 /usr/sbin/acpid 670 ?  Ss 0:01 avahi-daemon: running 
+    [rmc-zenbook3.local] 672 ?  Ss 0:00 /usr/lib/bluetooth/bluetoothd 673 ?  Ss 0:00 /usr/sbin/cron -f 676 ?  Ss 1:06 
+    /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 678 ?  Ssl 0:15 
+    /usr/sbin/NetworkManager --no-daemon 687 ?  Ssl 0:02 /usr/sbin/irqbalance --foreground 691 ?  Ss 0:00 /usr/bin/python3 
+    /usr/bin/networkd-dispatcher --run-startup-triggers 696 ?  Ssl 0:03 /usr/lib/policykit-1/polkitd --no-debug 705 ?  Ssl 
+    0:01 /usr/sbin/rsyslogd -n -iNONE 717 ?  Ssl 0:00 /usr/libexec/switcheroo-control 725 ?  Ss 0:00 
+    /lib/systemd/systemd-logind 726 ?  Ssl 0:02 /usr/sbin/thermald --no-daemon --dbus-enable 728 ?  Ssl 1:06 
+    /usr/lib/udisks2/udisksd 730 ?  Ss 0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant 744 ?  S 0:00 avahi-daemon: 
+    chroot helper 779 ?  Ssl 0:00 /usr/libexec/colord 785 ?  Ssl 0:00 /usr/sbin/cups-browsed 788 ?  Ssl 0:00 
+    /usr/sbin/ModemManager --filter-policy=strict 859 ?  Ss 0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups 891 ?  
+    Ss 0:01 /usr/sbin/apache2 -k start 892 ?  Ssl 1:05 /usr/sbin/mysqld 903 ?  Ssl 0:00 /usr/bin/python3 
+    /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal 916 ?  S 0:00 [cec-DP-2]
+drwxrwxr-x 8 rmc rmc 4096 Mär 3 09:12 02.cloud 1041 ?  S 0:00 /usr/sbin/apache2 -k start 1042 ?  S 0:00 /usr/sbin/apache2 -k 
+   start 1043 ?  S 0:00 /usr/sbin/apache2 -k start 1044 ?  S 0:00 /usr/sbin/apache2 -k start 1045 ?  S 0:00 /usr/sbin/apache2 
+   -k start 1046 ?  I< 0:00 [iprt-VBoxWQueue] 1050 ?  Ss 0:00 /usr/sbin/cupsd -l 1055 ?  S 0:00 [iprt-VBoxTscThr] 1086 ?  Ssl 
+   0:00 /usr/sbin/gdm3 1269 ?  SNsl 0:00 /usr/libexec/rtkit-daemon 1341 ?  Ssl 0:03 /usr/lib/upower/upowerd 1609 ?  S 0:00 
+   /usr/lib/cups/notifier/dbus dbus:// 1660 ?  Ssl 0:00 /usr/bin/whoopsie -f 1670 ?  Ss 0:01 /usr/sbin/kerneloops --test 1673 
+   ?  Ss 0:01 /usr/sbin/kerneloops 1848 ?  Sl 0:00 gdm-session-worker [pam/gdm-password] 1857 ?  S< 0:00 [loop13] 1881 ?  Ssl 
+   0:04 /usr/lib/snapd/snapd 2175 ?  Ss 0:00 /lib/systemd/systemd --user 2176 ?  S 0:00 (sd-pam) 2188 ?  S<sl 51:40 
+   /usr/bin/pulseaudio --daemonize=no --log-target=journal 2190 ?  SNsl 0:17 /usr/libexec/tracker-miner-fs 2192 ?  Ss 0:14 
+   /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only 2198 ?  SLl 0:01 
+   /usr/bin/gnome-keyring-daemon --daemonize --login 2213 ?  Ssl 0:01 /usr/libexec/gvfsd 2218 ?  Sl 0:00 
+   /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes 2226 ?  Ssl 0:00 /usr/libexec/gvfs-udisks2-volume-monitor 2234 
+   ?  Ssl 0:00 /usr/libexec/gvfs-goa-volume-monitor 2237 ?  S< 0:00 [krfcommd] 2239 ?  SLl 0:05 /usr/libexec/goa-daemon 2241 
+   tty2 Ssl+ 0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session 
+   --systemd --session=ubuntu 2243 tty2 Rl+ 104:05 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority 
+   -background none -noreset -keeptty -verbose 3 2250 ?  Sl 0:00 /usr/libexec/goa-identity-service 2256 ?  Ssl 0:00 
+   /usr/libexec/gvfs-afc-volume-monitor 2261 ?  Ssl 0:00 /usr/libexec/gvfs-gphoto2-volume-monitor 2265 ?  Ssl 0:00 
+   /usr/libexec/gvfs-mtp-volume-monitor 2307 tty2 Sl+ 0:00 /usr/libexec/gnome-session-binary --systemd --systemd 
+   --session=ubuntu 2321 ?  Sl 0:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets 2382 ?  Ss 0:00 
+   /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu 
+   2405 ?  Ssl 0:00 /usr/libexec/at-spi-bus-launcher 2410 ?  S 0:03 /usr/bin/dbus-daemon 
+   --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3 2422 ?  Ssl 0:00 
+   /usr/libexec/gnome-session-ctl --monitor 2428 ?  Ssl 0:02 /usr/libexec/gnome-session-binary --systemd-service 
+   --session=ubuntu 2443 ?  Rsl 38:11 /usr/bin/gnome-shell 2471 ?  Sl 1:29 ibus-daemon --panel disable --xim 2475 ?  Sl 0:00 
+   /usr/libexec/ibus-memconf 2476 ?  Sl 0:03 /usr/libexec/ibus-extension-gtk3 2479 ?  Sl 0:00 /usr/libexec/ibus-x11 
+   --kill-daemon 2481 ?  Sl 0:01 /usr/libexec/ibus-portal 2492 ?  Sl 0:06 /usr/libexec/at-spi2-registryd --use-gnome-session 
+   2496 ?  Ssl 0:00 /usr/libexec/xdg-permission-store 2501 ?  Sl 0:00 /usr/libexec/gnome-shell-calendar-server 2508 ?  Ssl 
+   0:00 /usr/libexec/evolution-source-registry 2522 ?  Sl 0:00 /usr/libexec/dconf-service 2525 ?  Ssl 0:02 
+   /usr/libexec/gvfsd-metadata 2536 ?  Ssl 0:01 /usr/libexec/evolution-calendar-factory 2548 ?  Ssl 0:00 
+   /usr/libexec/evolution-addressbook-factory 2575 ?  Sl 0:00 /usr/bin/gjs 
+   /usr/share/gnome-shell/org.gnome.Shell.Notifications 2586 ?  Sl 0:00 /usr/libexec/gvfsd-trash --spawner :1.3 
+   /org/gtk/gvfs/exec_spaw/0 2593 ?  Ssl 0:00 /usr/libexec/gsd-a11y-settings 2594 ?  Ssl 0:01 /usr/libexec/gsd-color 2600 ?  
+   Ssl 0:01 /usr/libexec/gsd-datetime 2602 ?  Ssl 0:02 /usr/libexec/gsd-housekeeping 2604 ?  Ssl 0:01 
+   /usr/libexec/gsd-keyboard 2605 ?  Ssl 0:01 /usr/libexec/gsd-media-keys 2607 ?  Ssl 0:01 /usr/libexec/gsd-power 2613 ?  Ssl 
+   0:00 /usr/libexec/gsd-print-notifications 2616 ?  Ssl 0:00 /usr/libexec/gsd-rfkill 2624 ?  Ssl 0:00 
+   /usr/libexec/gsd-screensaver-proxy 2626 ?  Ssl 0:02 /usr/libexec/gsd-sharing 2627 ?  Ssl 0:00 /usr/libexec/gsd-smartcard 
+   2628 ?  Ssl 0:00 /usr/libexec/gsd-sound 2637 ?  Ssl 0:00 /usr/libexec/gsd-usb-protection 2641 ?  RNl 6:12 baloo_file 2650 ?  
+   Ssl 0:01 /usr/libexec/gsd-wacom 2651 ?  Ssl 0:00 /usr/libexec/gsd-wwan 2652 ?  Ssl 0:01 /usr/libexec/gsd-xsettings 2654 ?  
+   Sl 0:26 /usr/bin/perl /usr/bin/shutter --min_at_startup 2662 ?  Sl 0:19 nemo-desktop 2671 ?  Sl 0:46 /usr/lib/slack/slack 
+   2677 ?  Sl 0:00 /usr/libexec/ibus-engine-simple 2683 ?  Sl 0:00 /usr/libexec/gsd-disk-utility-notify 2697 ?  Sl 0:00 
+   /usr/libexec/evolution-data-server/evolution-alarm-notify 2737 ?  Sl 0:00 /usr/libexec/gsd-printer 2788 ?  S 0:00 
+   /usr/lib/slack/slack --type=zygote --no-zygote-sandbox 2789 ?  S 0:00 /usr/lib/slack/slack --type=zygote 2824 ?  S 0:00 
+   /usr/lib/slack/slack --type=zygote 2831 ?  Ssl 1:05 /home/rmc/.dropbox-dist/dropbox-lnx.x86_64-116.4.368/dropbox 2883 ?  Sl 
+   0:11 /snap/snap-store/518/usr/bin/snap-store --gapplication-service 2910 ?  Ssl 0:01 /usr/libexec/xdg-document-portal 3066 
+   ?  Sl 2:55 /usr/lib/slack/slack --type=gpu-process --field-trial-handle=5223755090093742102,14761324036587723506,131072 
+   --enable-features=WebComponentsV0Enabled 
+   --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,RequestInitiatorSiteLockEnfocement,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns 
+   --gpu-preferences=OAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA== --shared-files 
+   3077 ?  Sl 0:25 /usr/lib/slack/slack --type=utility --utility-sub-type=network.mojom.NetworkService 
+   --field-trial-handle=5223755090093742102,14761324036587723506,131072 --enable-features=WebComponentsV0Enabled 
+   --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,RequestInitiatorSiteLockEnfocement,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns 
+   --lang=de --service-sandbox-type=network --standard-schemes=app,slack-webapp-dev --enable-sandbox 
+   --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev 
+   --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --streaming-schemes 
+   --shared-files=v8_context_snapshot_data:100 3137 ?  Sl 11:51 /usr/lib/slack/slack --type=renderer 
+   --autoplay-policy=no-user-gesture-required --force-color-profile=srgb 
+   --field-trial-handle=5223755090093742102,14761324036587723506,131072 --enable-features=WebComponentsV0Enabled 
+   --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,RequestInitiatorSiteLockEnfocement,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns 
+   --lang=de --enable-crash-reporter=a522034a-db76-4e69-b0e9-3b072377a0e8,no_channel 
+   --global-crash-keys=a522034a-db76-4e69-b0e9-3b072377a0e8,no_channel,_productName=Slack,_version=4.13.0 
+   --standard-schemes=app,slack-webapp-dev --enable-sandbox --secure-schemes=app,slack-webapp-dev 
+   --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev 
+   --service-worker-schemes=slack-webapp-dev --streaming-schemes --app-path=/usr/lib/slack/resources/app.asar --enable-sandbox 
+   --native-window-open --preload=/usr/lib/slack/resources/app.asar/dist/preload.bundle.js --context-isolation 
+   --background-color=#FFFFFF --enable-blink-features=EventTiming --enable-spellcheck --enable-websql 
+   --disable-electron-site-instance-overrides --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=4 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 --window-type=main 
+   3171 ?  S 0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2 3173 ?  Ssl 0:02 /usr/libexec/fwupd/fwupd 3207 ?  Ssl 0:00 
+   /usr/lib/bolt/boltd 3295 ?  Ss 0:00 /usr/sbin/uuidd --socket-activation 4136 ?  Sl 0:00 update-notifier 4171 ?  SLl 8:50 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --password-store 4254 ?  S 0:00 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=zygote --no-zygote-sandbox 4255 ?  S 0:00 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=zygote 4257 ?  S 0:00 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=zygote 4276 ?  Sl 15:38 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=gpu-process 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 
+   --gpu-preferences=QAAAAAAAAAAgAAAQAAAAAAAAAAAAAAAAAABgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA 
+   --shared-files 4282 ?  SLl 1:25 /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=utility 
+   --utility-sub-type=network.mojom.NetworkService --field-trial-handle=7553479743906546279,12855720293878275406,131072 
+   --lang=de --service-sandbox-type=network --shared-files=v8_context_snapshot_data:100 4296 ?  Sl 0:00 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=utility --utility-sub-type=storage.mojom.StorageService 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --service-sandbox-type=utility 
+   --shared-files=v8_context_snapshot_data:100 4331 ?  Sl 0:01 /usr/bin/snap userd 4413 ?  Sl 0:06 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=5 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4470 ?  Sl 0:28 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=6 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4483 ?  Sl 0:00 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=7 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4504 ?  Sl 0:00 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=8 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4522 ?  Sl 0:05 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=9 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4523 ?  Sl 0:02 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=10 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4530 ?  Sl 0:35 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=11 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4534 ?  Sl 0:32 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=12 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 4535 ?  Sl 0:00 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=13 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 5376 ?  Sl 0:18 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=18 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 5394 ?  Sl 0:11 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=32 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 5405 ?  Sl 0:09 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=19 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 5420 ?  Rl 22:49 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=renderer --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --extension-process 
+   --disable-client-side-phishing-detection --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 
+   --enable-main-frame-before-activation --renderer-client-id=33 --no-v8-untrusted-code-mitigations 
+   --shared-files=v8_context_snapshot_data:100 5433 ?  Sl 0:00 /snap/chromium/1497/usr/lib/chromium-browser/chrome 
+   --type=ppapi --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --shared-files 5443 ?  Sl 0:09 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=20 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5464 ?  Sl 0:09 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=21 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5491 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=22 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5509 ?  Sl 0:09 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=23 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5530 ?  Sl 0:12 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=24 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5545 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=25 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5575 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=26 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5589 ?  Sl 0:11 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=27 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5670 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=28 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5684 ?  Sl 0:11 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=29 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5734 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=30 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5752 ?  Sl 0:10 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=31 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 5794 ?  Sl 1:07 
+   /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+   --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+   --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+   --renderer-client-id=40 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 7450 ?  SLl 0:00 
+   /usr/bin/seahorse --gapplication-service 7451 ?  Sl 0:00 /usr/bin/gnome-calendar --gapplication-service 7512 ?  SLs 0:00 
+   /usr/bin/gpg-agent --supervised 9425 ?  Sl 0:01 /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=utility 
+   --utility-sub-type=audio.mojom.AudioService --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de 
+   --service-sandbox-type=none --shared-files=v8_context_snapshot_data:100
+drwxrwxr-x 3 rmc rmc 4096 Mär 3 09:19 02.iot 13235 ?  Rsl 1:24 /usr/libexec/gnome-terminal-server 13243 pts/0 Ss 0:00 bash 
+  13377 ?  Sl 0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1 13389 ?  Sl 0:00 
+  /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3 13612 ?  Sl 0:04 /usr/lib/slack/slack --type=utility 
+  --utility-sub-type=audio.mojom.AudioService --field-trial-handle=5223755090093742102,14761324036587723506,131072 
+  --enable-features=WebComponentsV0Enabled 
+  --disable-features=CookiesWithoutSameSiteMustBeSecure,HardwareMediaKeyHandling,RequestInitiatorSiteLockEnfocement,SameSiteByDefaultCookies,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns 
+  --lang=de --service-sandbox-type=none --enable-crash-reporter=a522034a-db76-4e69-b0e9-3b072377a0e8,no_channel 
+  --global-crash-keys=a522034a-db76-4e69-b0e9-3b072377a0e8,no_channel,_productName=Slack,_version=4.13.0 
+  --standard-schemes=app,slack-webapp-dev --enable-sandbox --secure-schemes=app,slack-webapp-dev 
+  --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev 
+  --service-worker-schemes=slack-webapp-dev --streaming-schemes --shared-files=v8_context_snapshot_data:100 14632 ?  Sl 0:00 
+  /usr/bin/zoom 14638 ?  S 0:00 sh -c export SSB_HOME=/home/rmc/.zoom; export QSG_INFO=1; export LD_LIBRARY_PATH=/opt/zoom; 
+  export BREAKPAD_CLIENT_FD=3; /opt/zoom/zoom "" 14639 ?  SLl 243:20 /opt/zoom/zoom 16031 ?  I 0:12 [kworker/1:1-rcu_gp] 16138 
+  ?  Sl 0:38 /usr/lib/x86_64-linux-gnu/libexec/kactivitymanagerd 16146 ?  Sl 0:02 /usr/bin/kglobalaccel5 16152 ?  Ss 0:00 
+  kdeinit5: Running... 16153 ?  Sl 0:02 /usr/lib/x86_64-linux-gnu/libexec/kf5/klauncher --fd=8 17505 ?  Sl 1:43 dolphin 18608 
+  ?  Sl 0:11 /usr/bin/eog /home/rmc/cloud01/Befehle/iot.cmd.01.png 18907 ?  I 1:24 [kworker/0:0-events] 20881 ?  D< 0:19 
+  [kworker/u9:0+i915_flip] 22595 pts/1 Ss+ 0:00 /bin/bash 22775 ?  I 0:01 [kworker/3:0-events] 22991 ?  S 0:00 [scsi_eh_0] 
+  22992 ?  I< 0:00 [scsi_tmf_0] 22993 ?  S 0:00 [usb-storage] 22997 ?  I< 0:00 [uas] 24943 ?  Sl 0:04 
+  /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+  --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+  --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+  --renderer-client-id=209 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 25011 ?  Sl 0:33 
+  /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+  --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+  --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+  --renderer-client-id=211 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 25276 ?  Sl 3:29 
+  /usr/lib/thunderbird/thunderbird 26451 ?  Sl 0:04 /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+  --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+  --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+  --renderer-client-id=215 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 26514 ?  Sl 0:05 
+  /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+  --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+  --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+  --renderer-client-id=218 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 26705 ?  I 0:02 
+  [kworker/3:2-events] 27383 ?  R 0:35 [kworker/0:1+events] 27481 ?  I 0:00 [kworker/u8:2-events_unbound] 28098 ?  I 0:01 
+  [kworker/2:0-events] 28149 ?  Sl 0:00 /snap/chromium/1497/usr/lib/chromium-browser/chrome --type=renderer 
+  --field-trial-handle=7553479743906546279,12855720293878275406,131072 --lang=de --disable-client-side-phishing-detection 
+  --origin-trial-disabled-features=SecurePaymentConfirmation --num-raster-threads=2 --enable-main-frame-before-activation 
+  --renderer-client-id=226 --no-v8-untrusted-code-mitigations --shared-files=v8_context_snapshot_data:100 28166 ?  I< 0:06 
+  [kworker/u9:2-i915_flip] 28207 ?  I 0:00 [kworker/u8:1-i915] 28468 ?  I 0:00 [kworker/u8:0-ext4-rsv-conversion] 28527 ?  I 
+  0:00 [kworker/2:1] 28575 ?  I 0:01 [kworker/1:2-events] 29118 ?  I< 0:00 [kworker/u9:3-rb_allocator] 29282 ?  S 0:00 file.so 
+  [kdeinit5] file local:/run/user/1000/klauncherlxJhkz.1.slave-socket local:/run/user/1000/dolphindMsLsG.49.slave-socket 29364 
+  ?  S 0:00 tags.so [kdeinit5] tags local:/run/user/1000/klauncherlxJhkz.1.slave-socket 
+  local:/run/user/1000/dolphinRKQhjm.51.slave-socket 29436 pts/0 R+ 0:00 ps -ax
+drwxrwxr-x 2 rmc rmc 4096 Mär 3 08:46 Befehleinsgesamt 68 drwxrwxr-x 6 rmc rmc 4096 Mär 3 13:31 . drwxrwxrwx 94 rmc rmc 12288 
+Mär 3 12:08 .. drwxrwxr-x 8 rmc rmc 4096 Mär 3 09:12 02.cloud drwxrwxr-x 3 rmc rmc 4096 Mär 3 09:19 02.iot drwxrwxr-x 2 rmc 
+rmc 4096 Mär 3 08:46 Befehle drwxrwxr-x 2 rmc rmc 4096 Mär 3 09:45 franzordner -rw-rw-r-- 1 rmc rmc 33739 Mär 3 13:29 info.txt 
+drwxrwxr-x 2 rmc rmc 4096 Mär 3 09:45 franzordner -rw------- 1 rmc rmc 390 Mär 3 13:44 info2.txt.save -rw-rw-r-- 1 rmc rmc 
+34096 Mär 3 13:31 info.txt -rw------- 1 rmc rmc 341 Mär 3 13:43 nano.save

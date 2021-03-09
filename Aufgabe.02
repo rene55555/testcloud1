@@ -1,0 +1,14 @@
+erstellt einen Ordner
+erstellt eine unterOrdner im P1
+erstellt einen unetr Ordner in P2
+erstellt mit touch eine Datei1.txt, Datei2.txt, Datei3.txt
+setzt die rechte auf 777 oder rwx für Datei1
+setz die rechte auf 755 oder ??? für Datei2
+setz die rechte auf ??? oder a=r Datei3
+kopiert eine der Dateien
+bewegt eine der Dateien
+löscht eine der Dateien
+löscht einen Ordner ohne diesen vorher leer zu machen
+installiert folgende tools: php7.4, mysql, apache2
+während ihr eins der tools installiert, leitet die Ausgabe in eine Datei um
+wenn ihr mit allem fertig seid postet das Ergebnis bei Slack (Aufgabe 14)
